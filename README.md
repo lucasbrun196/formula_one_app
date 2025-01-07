@@ -1,4 +1,4 @@
-# tests
+# Formula One App
 
 A new Flutter project.
 
