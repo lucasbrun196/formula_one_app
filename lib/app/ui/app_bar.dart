@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tests/app/ui/wave_shape.dart';
 
 class AppBarUi extends StatelessWidget implements PreferredSizeWidget {
   final String title;
@@ -13,8 +14,7 @@ class AppBarUi extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       toolbarHeight: 120,
       backgroundColor: const Color.fromARGB(255, 192, 64, 64),
-      shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(bottom: Radius.circular(50))),
+      shape: WaveShape(),
       title: Text(
         title,
         style: TextStyle(
