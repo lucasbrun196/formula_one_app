@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      theme: ThemeData.light(),
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       title: 'Formula One App',
       routeInformationParser: Modular.routeInformationParser,

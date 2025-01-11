@@ -6,12 +6,12 @@ class WaveShape extends OutlinedBorder {
     final Path path = Path();
     final Size size = Size(rect.width, rect.height * 1.75);
 
-    final startPoint = size.height * 0.5;
+    final startPoint = size.height * 0.7;
     path.lineTo(0, startPoint);
 
     final center = Offset(size.width * 0.5, size.height);
 
-    final endPoint = Offset(size.width, size.height * 0.5);
+    final endPoint = Offset(size.width, size.height * 0.7);
 
     path.quadraticBezierTo(center.dx, center.dy, endPoint.dx, endPoint.dy);
 
